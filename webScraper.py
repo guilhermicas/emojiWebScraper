@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+import re
 
 # HTML get request da página dos emojis
 EMOJI_URL = 'https://unicode.org/emoji/charts/full-emoji-list.html'
